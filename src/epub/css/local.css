@@ -1,2 +1,9 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
+
+/* Collections */
+article,
+section{
+	break-after: page;
+}
+/* End collections */
