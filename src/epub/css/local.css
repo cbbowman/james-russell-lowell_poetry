@@ -100,3 +100,10 @@ p span.i12{
 	font-style: italic;
 }
 /* End all epigraphs */
+
+/* All footers */
+footer{
+	margin-top: 1em;
+	text-align: right;
+}
+/* End all footers */
