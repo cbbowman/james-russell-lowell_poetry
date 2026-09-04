@@ -8,6 +8,34 @@ section{
 }
 /* End collections */
 
+/* Headers not in ToC */
+header{
+	font-variant: small-caps;
+	margin: 1em;
+	text-align: center;
+}
+
+article > div > header p{
+	/* Simulate h3. */
+	font-size: 1.17em;
+	font-variant: small-caps;
+	font-weight: bold;
+}
+
+article > div > div > header p{
+	/* Simulate h4. */
+	font-size: 1.08em;
+	font-variant: small-caps;
+	font-weight: bold;
+}
+
+[epub|type~="z3998:poem"] header p span{
+	display: inline;
+	padding: 0;
+	text-indent: 0;
+}
+/* End headers not in ToC */
+
 /* Poetry */
 [epub|type~="z3998:verse"] p,
 [epub|type~="z3998:poem"] p{
