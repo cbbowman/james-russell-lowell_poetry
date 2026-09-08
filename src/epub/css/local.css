@@ -149,3 +149,33 @@ footer{
 	text-align: right;
 }
 /* End all footers */
+
+/* Centered dedications */
+div[epub|type~="dedication"]{
+	text-align: center;
+}
+/* End centered dedications */
+
+/* The Cathedral dedication */
+#the-cathedral div[epub|type~="dedication"] p:nth-of-type(2){
+	text-indent: 0;
+}
+
+#the-cathedral div[epub|type~="dedication"] p:nth-of-type(-n + 2){
+	font-variant: small-caps;
+}
+
+#the-cathedral div[epub|type~="dedication"] b{
+	font-size: larger;
+	font-variant: small-caps;
+}
+
+#the-cathedral div[epub|type~="dedication"] p:nth-of-type(n + 2){
+	text-align: initial;
+}
+
+#the-cathedral div[epub|type~="dedication"] footer p:first-of-type span:first-of-type{
+	font-variant: normal;
+	padding-right: 7em;
+}
+/* End The Cathedral dedication */
