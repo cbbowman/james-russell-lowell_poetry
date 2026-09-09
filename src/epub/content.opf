@@ -6,6 +6,7 @@
 		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<meta property="rdf:type">http://schema.org/Book</meta>
+		<meta property="schema:additionalType">http://schema.org/Collection</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
 		<link href="https://standardebooks.org/" refines="#publisher" rel="schema:url"/>
@@ -30,57 +31,236 @@
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.2 Level AA.</meta>
 		<dc:title id="title">Poetry</dc:title>
 		<meta property="file-as" refines="#title">Poetry</meta>
-		<dc:subject id="subject-1">SUBJECT_1</dc:subject>
-		<dc:subject id="subject-2">SUBJECT_2</dc:subject>
+		<dc:subject id="subject-1">American poetry--19th century</dc:subject>
+		<dc:subject id="subject-2">Political poetry, American</dc:subject>
+		<dc:subject id="subject-3">Verse satire, American</dc:subject>
+		<dc:subject id="subject-4">Slavery--United States--Poetry</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
-		<meta property="term" refines="#subject-1">SUBJECT_1_LCSH_ID</meta>
+		<meta property="term" refines="#subject-1">sh85004386</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
-		<meta property="term" refines="#subject-2">SUBJECT_2_LCSH_ID</meta>
-		<meta property="schema:genre">TAG</meta>
-		<meta property="schema:abstract">DESCRIPTION</meta>
+		<meta property="term" refines="#subject-2">sh85104388</meta>
+		<meta property="authority" refines="#subject-3">LCSH</meta>
+		<meta property="term" refines="#subject-3">sh85142876</meta>
+		<meta property="authority" refines="#subject-4">LCSH</meta>
+		<meta property="term" refines="#subject-4">sh2010113271</meta>
+		<meta property="schema:genre">Poetry</meta>
+		<meta property="schema:abstract">A collection of poetry by James Russell Lowell.</meta>
 		<dc:description>
 			LONG_DESCRIPTION
 		</dc:description>
-		<dc:language>LANG</dc:language>
-		<dc:source>TRANSCRIPTION_URL</dc:source>
-		<dc:source>PAGE_SCANS_URL</dc:source>
+		<dc:language>en-US</dc:language>
+		<!-- TRANSCRIPTIONS -->
+		<!-- The Complete Poetical Works of James Russell Lowell -->
+		<!-- Threnodia; My Love; With a Pressed Flower; The Sirens; The Beggar        -->
+		<!-- Serenade; Irené; Sonnet — I Would Not Have This Perfect Love of Ours     -->
+		<!-- A Legend of Brittany; Prometheus; Song — Violet! Sweet Violet!           -->
+		<!-- Rosaline; Allegra; The Fountain; The Shepherd of King Admetus            -->
+		<!-- The Token; An Incident in a Railroad Car; Rhoecus; A Requiem             -->
+		<!-- The Fatherland; A Parable — Worn and Footsore Was the Prophet; Love      -->
+		<!-- To Perdita, Singing; Ode; The Moon; A Glance Behind the Curtain          -->
+		<!-- The Forlorn; Song, 'O Moonlight Deep and Tender'; Midnight; A Prayer     -->
+		<!-- The Heritage; The Rose: A Ballad; Elegy on the Death of Dr. Channing     -->
+		<!-- Stanzas on Freedom; A Chippewa Legend; Sonnet — To A. C. L.              -->
+		<!-- Sonnet — What Were I, Love, if I Were Stripped of Thee                   -->
+		<!-- Sonnet — Great Truths Are Portions of the Soul of Man                    -->
+		<!-- Sonnet — I Ask Not for Those Thoughts, That Sudden Leap                  -->
+		<!-- Sonnet — To M. W., on Her Birthday                                       -->
+		<!-- Sonnet — My Love, I Have No Fear That Thou Shouldst Die                  -->
+		<!-- Sonnet — I Cannot Think That Thou Shouldst Pass Away                     -->
+		<!-- Sonnet — There Never Yet Was Flower Fair in Vain                         -->
+		<!-- Sonnet — Sub Pondere Crescit; Sonnet — To the Spirit of Keats            -->
+		<!-- Sonnet — Beloved, in the Noisy City Here                                 -->
+		<!-- Sonnet — As the Broad Ocean Endlessly Upheaveth                          -->
+		<!-- Sonnet — Once Hardly in a Cycle Blossometh                               -->
+		<!-- Sonnet — The Love of All Things Springs from Love of One                 -->
+		<!-- Sonnet — A Poet Cannot Strive for Despotism                              -->
+		<!-- Sonnet — Therefore Think Not the Past Is Wise Alone                      -->
+		<!-- Sonnet — Far 'Yond This Narrow Parapet of Time                           -->
+		<!-- Sonnet — To M. O. S.; Sonnet — Our Love Is Not a Fading, Earthly Flower  -->
+		<!-- Sonnet — In Absence; Sonnet — Wendell Phillips; Sonnet — The Street      -->
+		<!-- Sonnet — I Grieve Not That Ripe Knowledge Takes Away                     -->
+		<!-- Sonnet — To J.R. Giddings; The Biglow Papers                             -->
+		<!-- Sonnet — I Thought Our Love at Full, but I Did Err; Columbus             -->
+		<!-- An Incident of the Fire at Hamburg; Hunger and Cold; The Landlord        -->
+		<!-- To a Pine-Tree; Si Descendero in Infernum, Ades; To the Past             -->
+		<!-- To the Future; Hebe; The Search; The Present Crisis; Summer Storm        -->
+		<!-- The Growth of the Legend; A Contrast; Extreme Unction; The Oak           -->
+		<!-- Above and Below; The Captive; The Birch-Tree                             -->
+		<!-- An Interview with Miles Standish                                         -->
+		<!-- On the Capture of Fugitive Slaves Near Washington                        -->
+		<!-- On the Death of Charles Turner Torrey; Remembered Music; Song. To M.L.   -->
+		<!-- To the Dandelion; The Ghost-Seer; Studies for Two Heads                  -->
+		<!-- On a Portrait of Dante by Giotto; On the Death of a Friend's Child       -->
+		<!-- The Falcon; The Changeling; An Indian-Summer Reverie; The Pioneer        -->
+		<!-- Longing; A Fable for Critics; The Vision of Sir Launfal; Invita Minerva  -->
+		<!-- The First Snow-Fall; Trial; The Sower; Ambrose; Eurydice                 -->
+		<!-- She Came and Went; Ode to France. February, 1848; Said Christ Our Lord   -->
+		<!-- Ode Written for the Celebration of the Introduction of the               -->
+		<!--   Cochituate Water Into the City of Boston Lines                         -->
+		<!-- Suggested by the Graves of Two English Soldiers on Concord Battle-Ground -->
+		<!-- To⸻; Freedom; Bibliolatres; Beaver Brook; Kossuth; To Lamartine. 1848    -->
+		<!-- To John Gorham Palfrey; To W.L. Garrison; To the Memory of Hood          -->
+		<!-- Sonnet — For This True Nobleness I Seek in Vain                          -->
+		<!-- Whether My Heart Hath Wiser Grown or Not; The Unhappy Lot of Mr. Knott   -->
+		<!-- An Oriental Apologue; To Charles Eliot Norton; Under the Willows; Dara   -->
+		<!-- The Singing Leaves; Seaweed; The Finding of the Lyre                     -->
+		<!-- New-Year's Eve, 1850; For an Autograph; Masaccio; Without and Within     -->
+		<!-- Godminster Chimes; The Parting of the Ways; Aladdin                      -->
+		<!-- An Invitation. To John Francis Heath; The Nomades; Self-Study            -->
+		<!-- Pictures from Appledore; The Wind-Harp; Auf Wiedersehen; Palinode        -->
+		<!-- After the Burial; The Dead House; A Mood; The Voyage to Vinland          -->
+		<!-- Mahmood the Image-Breaker; The Fountain of Youth; Yussouf                -->
+		<!-- The Darkened Mind; What Rabbi Jehosha Said; All-Saints                   -->
+		<!-- A Winter-Evening Hymn to My Fire; Fancy's Casuistry                      -->
+		<!-- To Mr. John Bartlett; Ode to Happiness; Villa Franca. 1859; The Miner    -->
+		<!-- Gold Egg: A Dream-Fantasy; A Familiar Epistle to a Friend                -->
+		<!-- An Ember Picture; To H.W.L.; The Nightingale in the Study                -->
+		<!-- In the Twilight; The Foot-Path; The Washers of the Shroud                -->
+		<!-- Two Scenes from the Life of Blondel; Memoriae Positum; On Board the '76  -->
+		<!-- Ode Recited at the Harvard Commemoration; L'envoi: To the Muse           -->
+		<!-- The Cathedral; Three Memorial Poems; Agassiz                             -->
+		<!-- To Holmes, on His Seventy-Fifth Birthday; In a Copy of Omar Khayyám      -->
+		<!-- On Receiving a Copy of Mr. Austin Dobson's 'Old World Idylls'            -->
+		<!-- To C.F. Bradford; Bankside; Joseph Winlock; Sonnet, to Fanny Alexander   -->
+		<!-- Jeffries Wyman; To a Friend; With an Armchair; E.G. de R.; Bon Voyage    -->
+		<!-- To Whittier, on His Seventy-Fifth Birthday                               -->
+		<!-- On an Autumn Sketch of H.G. Wild; To Miss D.T.                           -->
+		<!-- With a Copy of Aucassin and Nicolette; On Planting a Tree at Inveraray   -->
+		<!-- An Epistle to George William Curtis; Endymion; The Black Preacher        -->
+		<!-- Arcadia Rediviva; The Nest; A Youthful Experiment in English Hexameters  -->
+		<!-- Birthday Verses; Estrangement; Phœbe; Das Ewig-Weibliche; The Recall     -->
+		<!-- Absence; Monna Lisa; The Optimist; On Burning Some Old Letters           -->
+		<!-- The Protest; The Petition; Fact or Fancy?; Agro-Dolce; The Broken Tryst  -->
+		<!-- Casa Sin Alma; A Christmas Carol; My Portrait Gallery                    -->
+		<!-- Paolo to Francesca; Sonnet, Scottish Border                              -->
+		<!-- Sonnet, on Being Asked for an Autograph in Venice; The Dancing Bear      -->
+		<!-- The Maple; Nightwatches; Death of Queen Mercedes; Prison of Cervantes    -->
+		<!-- To a Lady Playing on the Cithern; The Eye's Treasury; Pessimoptimism     -->
+		<!-- The Brakes; A Foreboding; Under the October Maples; Love's Clock         -->
+		<!-- Eleanor Makes Macaroons; Telepathy; Scherzo                              -->
+		<!-- 'Franciscus de Verulamio Sic Cogitavit'; Auspex; The Pregnant Comment    -->
+		<!-- The Lesson; Science and Poetry; A New Year's Greeting; The Discovery     -->
+		<!-- With a Seashell; The Secret; Fitz Adam's Story                           -->
+		<!-- The Origin of Didactic Poetry; The Flying Dutchman                       -->
+		<!-- Credidimus Jovem Regnare; Tempora Mutantur; In the Half-Way House        -->
+		<!-- At the Burns Centennial; In an Album; At the Commencement Dinner, 1866   -->
+		<!-- A Parable — An Ass Munched Thistles; Sayings; Inscriptions               -->
+		<!-- A Misconception; The Boss; Sun-Worship; Changed Perspective              -->
+		<!-- With a Pair of Gloves Lost in a Wager; Sixty-Eighth Birthday             -->
+		<!-- Anti-Apis; Letter from Boston. December, 1846                            -->
+		<!-- Fragments of an Unfinished Poem; International Copyright; Al Fresco      -->
+		<!-- How I Consulted the Oracle of the Goldfishes; Turner's Old Téméraire     -->
+		<!-- St. Michael the Weigher; A Valentine; An April Birthday— at Sea          -->
+		<!-- Love and Thought; The Nobler Lover                                       -->
+		<!-- On Hearing a Sonata of Beethoven's Played in the Next Room               -->
+		<!-- Verses, Intended to Go with a Posset Dish; On a Bust of General Grant    -->
+		<dc:source>https://www.gutenberg.org/ebooks/13310</dc:source>
+		<!-- Poems of James Russell Lowell (1898) -->
+		<!-- The Gentle Una I Have Loved; Opening Poem to "A Year's Life"              -->
+		<!-- The Serenade; Lift Up the Curtains of Thine Eyes; The Departed            -->
+		<!-- The Bobolink; What Reck I of the Stars, When I; The Poet; Flowers         -->
+		<!-- The Lover; To E. W. G.; Isabel; Music                                     -->
+		<!-- O! I Must Look on That Sweet Face Once More Before I Die; Ianthe          -->
+		<!-- Love's Altar; Impartiality; Bellerophon; Something Natural; A Feeling     -->
+		<!-- The Lost Child; The Church; The Unlovely; Love-Song                       -->
+		<!-- All Things Are Sad; A Love-Dream; Fourth of July Ode; Sphinx              -->
+		<!-- Sonnet — Disappointment                                                   -->
+		<!-- Sonnet — Great Human Nature, Whither Art Thou Fled?                       -->
+		<!-- Sonnet — To a Friend; Sonnet — So May It Be, but Let It Not Be So         -->
+		<!-- Sonnet — O Child of Nature ! O Most Meek and Free                         -->
+		<!-- Sonnet — To ⸻; Sonnet — Might I but Be Beloved, and, O Most Fair          -->
+		<!-- Sonnet — Why Should We Ever Weary of This Life?; Sonnet — Green Mountains -->
+		<!-- Sonnet — My Friend, Adown Life's Valley, Hand in Hand                     -->
+		<!-- Sonnet — Verse Cannot Say How Beautiful Thou Art                          -->
+		<!-- Sonnet — The Soul Would Fain Its Loving Kindness Tell                     -->
+		<!-- Sonnet — I Saw a Gate: A Harsh Voice Spake and Said                       -->
+		<!-- Sonnet — To the Dark, Narrow House Where Loved Ones Go                    -->
+		<!-- Sonnet — I Fain Would Give to Thee the Loveliest Things                   -->
+		<!-- Sonnet — Much I Had Mused of Love, and in My Soul                         -->
+		<!-- Sonnet — Sayest Thou, Most Beautiful, That Thou Wilt Wear                 -->
+		<!-- Sonnet — Poet! Who Sittest in Thy Pleasant Room                           -->
+		<!-- Sonnet — No More but So?; Sonnet — To a Voice Heard in Mount Auburn       -->
+		<!-- Sonnet — On Reading Spenser Again                                         -->
+		<!-- Sonnet — Light of Mine Eyes! with Thy So Trusting Look                    -->
+		<!-- Sonnet — Silent as One Who Treads on New-Fallen Snow                      -->
+		<!-- Sonnet — A Gentleness That Grows of Steady Faith                          -->
+		<!-- Sonnet — When the Glad Soul Is Full to Overflow                           -->
+		<!-- Sonnet — To the Evening-Star; Sonnet — Reading                            -->
+		<!-- Sonnet — To ⸻, After a Snow-Storm; Sonnet — Edith; Sonnet — Rose          -->
+		<!-- Sonnet — Mary; Sonnet — Caroline; Sonnet — Anne; "Goe, Little Booke"      -->
+		<!-- A Dirge; In Sadness; Forgetfulness; A Reverie                             -->
+		<!-- Sonnet — If Some Small Savor Creep Into My Rhyme; Hakon's Lay             -->
+		<!-- Out of Doors; Farewell; Fancies About a Rosebud; New Year's Eve, 1844     -->
+		<!-- A Mystical Ballad                                                         -->
+		<dc:source>https://www.gutenberg.org/ebooks/38520</dc:source>
+		<!-- END TRANSCRIPTIONS -->
+		<!-- SCANS -->
+		<!-- The Complete Poetical Works of James Russell Lowell -->
+		<!-- Poem titles same as transcription source. -->
+		<dc:source>https://catalog.hathitrust.org/Record/009793485</dc:source>
+		<!-- Poems of James Russell Lowell (1898) -->
+		<!-- Poem titles same as transcription source. -->
+		<dc:source>https://archive.org/details/poemsofjamesruss00loweuoft</dc:source>
+		<!-- Poems (1844) -->
+		<!-- Fantasy; Silence; Sonnet — Impatience and Reproof                    -->
+		<!-- Sonnet — Reformers; Sonnet — The Fiery Trial; Sonnet — The Haven     -->
+		<!-- Sonnet — Resolve; Sonnet — The Poet                                  -->
+		<!-- Sonnet — Full Many Noble Friends My Soul Hath Known                  -->
+		<!-- Sonnet — How Oft Do I Live O'Er That Blissful Time                   -->
+		<!-- Sonnet — Slow-Opening Flower of the Summer Morn                      -->
+		<!-- Sonnet — Thankfulness; Sonnet — Ye Who Behold the Body of My Thought -->
+		<!-- Sonnet — O, Happy Childhood ! Dear, Unthoughtful Years               -->
+		<!-- Sonnet — On My Twenty-Fourth Birth-Day, February 22, 1843            -->
+		<dc:source>https://archive.org/details/poemslowell00lowe</dc:source>
+		<!-- Poems (1848) -->
+		<!-- The Epitaph; The Royal Pedigree; Anti-Texas -->
+		<dc:source>https://archive.org/details/bwb_S0-DQY-686</dc:source>
+		<!-- END SCANS -->
 		<meta property="schema:wordCount">WORD_COUNT</meta>
 		<meta property="schema:educationalLevel">READING_EASE</meta>
-		<link href="EBOOK_WIKI_URL" rel="schema:sameAs"/>
 		<meta id="vcs-repository" property="schema:workExample">schema:workExample</meta>
 		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
 		<link href="https://github.com/standardebooks/james-russell-lowell_poetry" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">James Russell Lowell</dc:creator>
 		<meta property="file-as" refines="#author">Lowell, James Russell</meta>
-		<meta property="schema:alternateName" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
 		<link href="https://en.wikipedia.org/wiki/James_Russell_Lowell" refines="#author" rel="schema:sameAs"/>
 		<link href="https://id.loc.gov/authorities/names/n79076124.html" refines="#author" rel="schema:sameAs"/>
+		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST_NAME</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<link href="COVER_ARTIST_WIKI_URL" refines="#artist" rel="schema:sameAs"/>
-		<link href="COVER_ARTIST_NACOAF_URI" refines="#artist" rel="schema:sameAs"/>
+		<dc:contributor id="artist">Jacob van Ruisdael</dc:contributor>
+		<meta property="file-as" refines="#artist">Ruisdael, Jacob van</meta>
+		<meta property="schema:alternateName" refines="#artist">Jacob Isaackszoon van Ruisdael</meta>
+		<link href="https://en.wikipedia.org/wiki/Jacob_van_Ruisdael" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n82062822.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER_1_NAME</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_1_SORT</meta>
-		<link href="TRANSCRIBER_1_URL" refines="#transcriber-1" rel="schema:url"/>
+		<dc:contributor id="transcriber-1">Charles Aldarondo</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Aldarondo, Charles</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-2">TRANSCRIBER_2_NAME</dc:contributor>
-		<meta property="file-as" refines="#transcriber-2">TRANSCRIBER_2_SORT</meta>
-		<link href="TRANSCRIBER_2_URL" refines="#transcriber-2" rel="schema:url"/>
+		<dc:contributor id="transcriber-2">Carol Brown</dc:contributor>
+		<meta property="file-as" refines="#transcriber-2">Brown, Carol</meta>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-3">Distributed Proofreaders</dc:contributor>
-		<meta property="file-as" refines="#transcriber-3">Distributed Proofreaders</meta>
-		<link href="https://www.pgdp.net/" refines="#transcriber-3" rel="schema:url"/>
+		<dc:contributor id="transcriber-3">Gene Smethers</dc:contributor>
+		<meta property="file-as" refines="#transcriber-3">Smethers, Gene</meta>
 		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER_NAME</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<link href="PRODUCER_URL" refines="#producer-1" rel="schema:url"/>
+		<dc:contributor id="transcriber-4">Brian Sogard</dc:contributor>
+		<meta property="file-as" refines="#transcriber-4">Sogard, Brian</meta>
+		<meta property="role" refines="#transcriber-4" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-5">Keren Vergon</dc:contributor>
+		<meta property="file-as" refines="#transcriber-5">Vergon, Keren</meta>
+		<meta property="role" refines="#transcriber-5" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-6">Distributed Proofreaders</dc:contributor>
+		<meta property="file-as" refines="#transcriber-6">Distributed Proofreaders</meta>
+		<link href="https://www.pgdp.net/" refines="#transcriber-6" rel="schema:url"/>
+		<meta property="role" refines="#transcriber-6" scheme="marc:relators">trc</meta>
+		<dc:contributor id="producer-1">C. B. Bowman</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Bowman, C. B.</meta>
+		<link href="https://github.com/cbbowman" refines="#producer-1" rel="schema:url"/>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
+		<meta property="role" refines="#producer-1" scheme="marc:relators">trc</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 	</metadata>
 	<manifest>
