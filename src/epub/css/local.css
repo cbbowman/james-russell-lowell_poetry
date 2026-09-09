@@ -1,6 +1,19 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
+@font-face{
+	font-family: "Standard Blackletter";
+	font-weight: 700;
+	src: url("../fonts/standard-blackletter.otf") format("opentype");
+}
+
+/* Blackletter text */
+.blackletter{
+	font-family: "Standard Blackletter", serif;
+	font-variant: normal;
+}
+/* End Blackletter text */
+
 /* Collections */
 article,
 section{
