@@ -110,6 +110,7 @@ p span.i12{
 /* All epigraphs */
 [epub|type~="epigraph"]{
 	font-style: italic;
+	font-variant: normal;
 	hyphens: none;
 	-epub-hyphens: none;
 }
